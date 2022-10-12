@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background: grey;
+  color: white;
+}
+
+main{
+  padding-top: 50px;
+  max-width: 40px;
+  margin: 0;
+  text-align: center;
+}
