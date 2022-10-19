@@ -1,6 +1,7 @@
 import { getQueriesForElement } from '@testing-library/react';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import PlayButton from './PlayButton';
 
 const red = "#FF5733"
 function Timer() {
@@ -11,6 +12,9 @@ function Timer() {
                 pathColor: red,
                 trailColor: getQueriesForElement,
             })} />
+            <div>
+                <PlayButton />
+            </div>
 
         </div>
     )
